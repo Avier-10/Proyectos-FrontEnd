@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 body {
   background-image: url(/Img/Cielo.jpg);
   background-position: center center;
@@ -32,13 +32,13 @@ body {
   margin-left: 60px;
   margin-right: 60px;
   color: black;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 #BloqueRegistro {
-  background-color: rgb(201, 200, 202);
+  background-color: rgb(201, 200, 202, 0.5);
   width: 850px;
   border: 1px solid black;
-  margin: 20px auto;
+  margin: 30px auto;
   border-radius: 10px;
 }
 form {
@@ -47,16 +47,30 @@ form {
 }
 label {
   font-size: 16px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+  text-shadow: 1px 1px 6px black;
 }
 input {
   margin: 5px;
   border-radius: 5px;
   height: 23px;
+  border: 0px;
+  padding-left: 6px;
 }
 .BotonEnviar {
   margin: 8px;
+  border: 2px;
+  
 }
+#URedireccion {
+  margin: 5px;
+  text-shadow: 1px 1px 6px black;
+}
+
+#TyC {
+  font-size: 15px;
+}
+
 #BloquePie {
   background-image: url(/Img/Degradado.jpg);
   background-position: center;
@@ -73,9 +87,9 @@ input {
 }
 .ColumnasText {
   display: block;
-  Color: black;
+  color: black;
   font-size: 18px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 .PieLinks {
   display: inline;
@@ -83,12 +97,6 @@ input {
   margin-right: 40px;
   font-size: 13px;
   color: black;
-}
-#TyC {
-  font-size: 15px;
-}
-#URedireccion {
-  margin: 5px;
 }
 
 ul {

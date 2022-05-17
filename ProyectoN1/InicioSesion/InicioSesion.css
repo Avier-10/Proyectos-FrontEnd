@@ -52,19 +52,27 @@ form {
 label {
   font-size: 16px;
   font-family: "Playfair Display", serif;
+  text-shadow: 1px 1px 6px black;
 }
 input {
   margin: 5px;
   border-radius: 5px;
   height: 23px;
+  border: 0px;
+  padding-left: 6px;
 }
-#BloqueRFooter{
-    text-align: center;
-    margin-top: 20px;
+#BloqueRFooter {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .BotonEnviar {
   margin: 10px;
+  
+}
+#Redireccion {
+  margin: 5px;
+  text-shadow: 1px 1px 6px black;
 }
 #BloquePie {
   background-image: url(/Img/Degradado.jpg);
@@ -95,9 +103,6 @@ input {
 }
 #TyC {
   font-size: 15px;
-}
-#URedireccion {
-  margin: 5px;
 }
 
 ul {
