@@ -24,13 +24,13 @@ body {
 }
 #BloqueLinks {
   position: absolute;
-  left: 130px;
+  left: 140px;
   top: 30px;
 }
 .HeaderLinks {
   font-size: 20px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 70px;
+  margin-right: 70px;
   color: black;
   font-family: "Playfair Display", serif;
 }

@@ -36,7 +36,7 @@ body {
   font-family: "Playfair Display", serif;
 }
 #BloqueRegistro {
-  background-color: rgb(201, 200, 202);
+  background-color: rgb(201, 200, 202,0.5);
   width: 850px;
   height: 400px;
   border: 1px solid black;
@@ -61,11 +61,13 @@ input {
   border: 0px;
   padding-left: 6px;
 }
+placeholder{
+  font-family: "Playfair Display", serif;
+}
 #BloqueRFooter {
   text-align: center;
   margin-top: 20px;
 }
-
 .BotonEnviar {
   margin: 10px;
   
